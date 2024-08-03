@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隽龍香港有限公司</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100%; 
+            max-height: 400px;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+        }
+        .header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 3rem; 
+            margin: 0;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); 
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            margin: 0 10px;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #0b498b;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            color: #fff;
+            background-color: #0b498b;
+            transform: scale(1.1);
+        }
+        .tab-content {
+            display: none;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            line-height: 1.6; 
+            margin-bottom: 20px;
+        }
+        .image-text-container {
+            display: flex;
+            align-items: flex-start; 
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .image-text-container img {
+            max-width: 150px;
+            border-radius: 5px;
+            margin-right: 20px;
+            margin-bottom: 1rem;
+        }
+        .image-text-container .text {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #0b498b;
+        }
+        footer {
+            background-color: #0b498b; /* 深藍色 */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 11.47.11.png" alt="背景图片">
+        <h1>隽龍香港有限公司<br>JFD(HK)Limited CHINA Marketing</h1>
+    </div>
+    <div class="container">
+        <nav>
+            <a href="#tab1" class="tab-link" data-tab="tab1">公司简介</a>
+            <a href="#tab2" class="tab-link" data-tab="tab2">雋⿓⾹港業務簡介</a>
+            <a href="#tab3" class="tab-link" data-tab="tab3">遠景發展</a>
+            <a href="#tab4" class="tab-link" data-tab="tab4">往期活動回顧</a>
+            <a href="#tab5" class="tab-link" data-tab="tab5">新媒體·市場運營平台</a>
+        </nav>
+        <div id="tab1" class="tab-content active">
+            <p>隽龍香港有限公司成立於中國香港，作為海外、香港和內地不同範疇或機構的一個市場營銷策劃的平台。<br><br>作為一間新晉的年輕公司，隽龍香港有限公司已經與多間大機構和上市公司建立了緊密的合作關係。例如，與內地一線城市的不同銀行機構、房地產開發商、教育和資產管理公司保持著長期合作夥伴關係。<br><br>隽龍香港有限公司建基於在香港和內地建立的強而有力的商業圈層和廣泛的人脈資源，並且擁有一支年輕且創意無限、執行力極有效率的團隊。公司在組織線下活動沙龍和活動營銷策劃方面有著豐富的管理經驗，同時也擅長於在線上自媒體和直播推廣方面採取多元化的市場策略方針。隽龍為不同的大中小型企業提供了一個良好的共贏平台，致力於打造一個涵蓋生活品質、財富管理和教育規劃等一站式服務的綜合性平台。</p>
+            <div class="image-text-container">
+                <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 14.13.15.png" alt="陈" style="width: 130%; max-width: 850px;">
+                <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 11.19.27.png" alt="陈" style="width: 100%; max-width: 300px;">
+                <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 11.33.10.png" alt="陈文字" style="width: 100%; max-width: 450px;">
+            </div>
+        </div>
+        <div id="tab2" class="tab-content">
+            <p>雋⿓成⽴初衷始於2020年疫情環境影響下，為了我們⾃家品牌公司『港雋留學』提升知名度和增加公司⽣意，於是在內地不同⼀缐城市展開线下推廣活動，如上海，深圳，廣州和內蒙古鄂爾多斯等等城市舉辦活動。由於效果和反應熱烈，吸引多間⼤型公司的⻘睞，如新加坡遠東機構（⾹港信和集團姊妹公司），富⼒集團，天賦環亞，深圳匯豐銀⾏和上海恒⽣銀⾏總⾏等等合作夥伴。</p>
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 11.59.35.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.01.54.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+        </div>
+        <div id="tab3" class="tab-content">
+            <p>我們的遠景是構建雲集⼤中小型企業⼀個良好共贏的平台，打造⼀個包含⽣活品質，財富管理和教育規劃等等⼀站式服務。形成了⼀個內循環和外循環⽣意互相引薦的平台。另外後期我們將引⼊互聯網科技如，APP,小程序，新興社交媒體和⼤數據，打造出結合綫上和线下的⼤平台。 </p>
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.04.56.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.06.47.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+        </div>
+        <div id="tab4" class="tab-content">
+            <p>隽龍精彩回顧</p>
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.12.53.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.14.34.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.15.20.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.16.08.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.16.53.png" alt="陈文字" style="width: 100%; max-width: 6000px; border-radius: 5px; margin-bottom: 1rem;">
+        </div>
+        <div id="tab5" class="tab-content">
+            <p>隽龍業務</p>
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.18.02.png" alt="陈文字" style="width: 48%; max-width: 1000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 12.23.47.png" alt="陈文字" style="width: 48%; max-width: 1000px; border-radius: 5px; margin-bottom: 1rem;"> 
+            <p>我們的推廣平台：
+                微信朋友圈 微信公眾號 小紅書 官網微博 百度貼吧 線下宣講會...
+            </p>
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.31.59.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.34.00.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.36.17.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.37.08.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.38.41.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.39.51.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+            <p>我們的服務：</p>
+            <img src="/Users/lishiyin/Desktop/junl/截屏2024-08-03 13.42.28.png" alt="陈文字" style="width: 100%; max-width: 3000px; border-radius: 5px; margin-bottom: 1rem;">
+        </div>
+    </div>
+    <footer>
+        隽龍香港有限公司 © 2024   聯繫方式：31880034 <br>地址：香港尖東科學館道1號康宏廣場1611   [All rights reserved.]
+    </footer>
+    <script>
+        document.querySelectorAll('.tab-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.querySelectorAll('.tab-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+                document.getElementById(this.dataset.tab).classList.add('active');
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
